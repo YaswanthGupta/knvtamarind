@@ -1,0 +1,155 @@
+body {
+    background-image: url('../images/footer_lodyas.png');
+}
+
+ul {
+    padding-left: 30px !important;
+}
+
+/*
+** ------------------------------------
+** EDITING FOR MATERILIZE.MIN.CSS START
+** ------------------------------------
+*/
+
+#sidenav-overlay {
+    z-index: 0 !important;
+}
+
+.bullets {
+    list-style-type: square !important;
+}
+
+/*
+** ------------------------------------
+** EDITING FOR MATERILIZE.MIN.CSS END
+** ------------------------------------
+*/
+
+#hero {
+    text-align: center;
+    background: #E2B58C;
+}
+
+@media screen and (max-width: 600px) {
+    #hero>img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    #header-logo {
+        font-size: 22px;
+    }
+
+    #mobile-demo {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #left-col {
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    #header-logo {
+        margin-left: 15px;
+    }
+}
+
+.heading {
+    background-color: rgba(247, 155, 158, 0.2);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+#year {
+    position: absolute;
+    margin-top: -33px;
+    margin-left: 50px;
+    color: black;
+}
+
+@media screen and (min-width: 601px) {
+    #year {
+        position: absolute;
+        margin-top: -37px;
+        margin-left: 50px;
+        color: black;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #year {
+        position: absolute;
+        margin-top: -40px;
+        margin-left: 50px;
+        color: black;
+    }
+}
+
+#left-col,
+#right-col,
+#content {
+    background-color: rgba(247, 155, 158, 0.2);
+    margin-top: 15px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.container .row {
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+}
+
+#left-col {
+    margin-right: 20px;
+    margin-left: -10px;
+}
+
+#right-col {
+    margin-right: -10px;
+}
+
+#contact-form {
+    padding-top: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+#tamrind_types_heading {
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+table>tbody>tr>td:hover {
+    background-color: #ee6e73;
+}
+
+table>thead>tr>th {
+    background-color: rgba(247, 155, 158, 0.2);
+    color: black;
+}
+
+table {
+    margin-top: -10px;
+}
+
+footer {
+    background-color: #ee6e73;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
