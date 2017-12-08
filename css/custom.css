@@ -6,6 +6,11 @@ ul {
     padding-left: 30px !important;
 }
 
+a {
+    text-decoration: none;
+    color: white !important;
+}
+
 /*
 ** ------------------------------------
 ** EDITING FOR MATERILIZE.MIN.CSS START
@@ -66,29 +71,12 @@ ul {
     color: white;
 }
 
-#year {
-    position: absolute;
-    margin-top: -33px;
-    margin-left: 50px;
-    color: black;
+#mobile-demo {
+    background-color: #5C4A4B;
 }
 
-@media screen and (min-width: 601px) {
-    #year {
-        position: absolute;
-        margin-top: -37px;
-        margin-left: 50px;
-        color: black;
-    }
-}
-
-@media screen and (min-width: 1000px) {
-    #year {
-        position: absolute;
-        margin-top: -40px;
-        margin-left: 50px;
-        color: black;
-    }
+#mobile-demo > li {
+    margin-left: -25px;
 }
 
 #left-col,
@@ -148,8 +136,7 @@ table {
 }
 
 footer {
-    background-color: #ee6e73;
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 10px;
     color: white;
-    text-align: center;
 }
